@@ -15,7 +15,7 @@ function printOut(str) {
       setTimeout(main, timePerLetter);
   })();
 }
-printOut("...Your hardisk is empty please install a OS before you can use this uni. Coyright reserved by: Fed.11/99-ADv/SACR.USA Dist.of.Alabm.047.HP Internactional,Sacramento,California USA. ")
+printOut("...Your hardisk is empty.Please install a OS before you can use this unit.All Coyright reserved by;Fed.11/99-ADv/SACR.USA Dist.of.Alabm.047.HP Internactional,Sacramento,California USA. ")
 }
 myFunc()
 
