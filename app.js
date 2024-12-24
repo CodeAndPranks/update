@@ -13,9 +13,18 @@ function printOut(str) {
     text.nodeValue += char
     if(i < str.length)
       setTimeout(main, timePerLetter);
+  } else {
+   setTimeout(function() {
+     text.nodeValue = ""
+     demo.innerHTML = ""
+     h2.innerHTML = " "
+     document.body.style.backgroundColor="grey"
+  }, 2000);  
   })();
 }
-printOut("...Your hardisk is empty.Please install a OS before you can use this unit.All Coyright reserved by;Fed.11/99-ADv/SACR.USA Dist.of.Alabm.047.HP Internactional,Sacramento,California USA. ")
+printOut("...Your hardisk is empty please install a OS before you can use this unit\n All Coyrihgts reserved by \nFed.11/99-ADv/SACR.USA Dist.of.Alabm 047\n \nHP Internactional,Sacramento,California USA. ")
 }
-myFunc()
+setTimeout(function() {
+    myFunc();
+ }, 2000);
 
