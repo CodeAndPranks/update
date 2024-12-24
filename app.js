@@ -13,7 +13,7 @@ function printOut(str) {
     text.nodeValue += char
     if(i < str.length)
       setTimeout(main, timePerLetter);
-  } else {
+   else 
    setTimeout(function() {
      text.nodeValue = ""
      demo.innerHTML = ""
